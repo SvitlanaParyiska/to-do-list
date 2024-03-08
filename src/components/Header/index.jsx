@@ -15,7 +15,7 @@ function Header() {
               noWrap
               component="div"
               sx={{
-                ' flexGrow': 1,
+                'flexGrow': 1,
                 'display': { 'xs': 'none', 'sm': 'block' },
               }}
             >
