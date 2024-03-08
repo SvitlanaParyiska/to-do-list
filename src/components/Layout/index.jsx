@@ -1,11 +1,11 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 function Layout({ children }) {
   Layout.propTypes = {
-    children: PropTypes.elementType,
-  };
+    'children': PropTypes.elementType,
+  }
 
-  return <main className="container">{children}</main>;
+  return <main className="container">{children}</main>
 }
 
-export default Layout;
+export default Layout

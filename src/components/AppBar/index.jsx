@@ -1,10 +1,10 @@
-import ToDoCounter from "../../components/ToDoCounter";
-import Filter from "../../components/Filter";
+import ToDoCounter from '../../components/ToDoCounter'
+import Filter from '../../components/Filter'
 
 function AppBar() {
   return (
     <section>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ 'display': 'flex', 'justifyContent': 'space-between' }}>
         <div>
           <h2>Tasks: </h2>
           <ToDoCounter />
@@ -15,7 +15,7 @@ function AppBar() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default AppBar;
+export default AppBar

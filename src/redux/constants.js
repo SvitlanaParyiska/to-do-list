@@ -1,1 +1,1 @@
-export const N = 25;
+export const Numb = 25
