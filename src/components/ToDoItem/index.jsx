@@ -9,11 +9,11 @@ import PropTypes from "prop-types";
 
 function ToDoItem({ toDo }) {
   ToDoItem.propTypes = {
-    toDo: {
+    toDo: PropTypes.exact({
       text: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
-      completed: PropTypes.boolean.isRequired,
-    },
+      completed: PropTypes.bool.isRequired,
+    }),
   };
 
   const dispatch = useDispatch();
