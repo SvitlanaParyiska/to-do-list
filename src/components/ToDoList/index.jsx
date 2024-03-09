@@ -29,7 +29,7 @@ function ToDoList() {
       {toDos.length > 0 ? (
         <h3>Tasks list:</h3>
       ) : (
-        <p>Your tasks ist is empty... Please add task.</p>
+        <p>Your tasks list is empty... Please add task.</p>
       )}
       <ul>
         {visibleTasks.length > 0 &&
