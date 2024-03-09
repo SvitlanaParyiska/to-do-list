@@ -8,6 +8,7 @@ function ToDoCounter() {
 
   useEffect(() => {
     if (toDos.length > 0) {
+      // eslint-disable-next-line unicorn/no-array-reduce
       const total = toDos.reduce(
         (acc, toDo) => {
           if (toDo.completed) {
@@ -17,6 +18,7 @@ function ToDoCounter() {
           }
           return acc
         },
+        // eslint-disable-next-line comma-dangle
         { 'active': 0, 'completed': 0 }
       )
       setCount(total)

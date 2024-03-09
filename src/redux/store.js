@@ -23,6 +23,7 @@ const toDoPersistReducer = persistReducer(persistConfig, toDoReducer)
 export const store = configureStore({
   'reducer': toDoPersistReducer,
   'middleware': (getDefaultMiddleware) =>
+    // eslint-disable-next-line implicit-arrow-linebreak
     getDefaultMiddleware({
       'serializableCheck': {
         'ignoredActions': [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
